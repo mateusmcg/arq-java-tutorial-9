@@ -3,8 +3,6 @@ package com.javaee.springtests.services;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.springframework.stereotype.Service;
-
 import com.javaee.springtests.api.v1.mapper.VendorMapper;
 import com.javaee.springtests.api.v1.model.VendorDTO;
 import com.javaee.springtests.controllers.v1.VendorController;
@@ -12,7 +10,6 @@ import com.javaee.springtests.domain.Vendor;
 import com.javaee.springtests.exceptions.ResourceNotFoundException;
 import com.javaee.springtests.repositories.VendorRepository;
 
-@Service
 public class VendorServiceImpl implements VendorService{
 
 	private final VendorMapper vendorMapper;

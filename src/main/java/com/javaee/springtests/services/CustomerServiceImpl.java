@@ -3,8 +3,6 @@ package com.javaee.springtests.services;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.springframework.stereotype.Service;
-
 import com.javaee.springtests.api.v1.mapper.CustomerMapper;
 import com.javaee.springtests.api.v1.model.CustomerDTO;
 import com.javaee.springtests.controllers.v1.CustomerController;
@@ -12,7 +10,6 @@ import com.javaee.springtests.domain.Customer;
 import com.javaee.springtests.exceptions.ResourceNotFoundException;
 import com.javaee.springtests.repositories.CustomerRepository;
 
-@Service
 public class CustomerServiceImpl implements CustomerService{
 
 	private CustomerRepository customerRepository;

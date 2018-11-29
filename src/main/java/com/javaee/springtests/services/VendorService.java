@@ -5,7 +5,6 @@ import java.util.List;
 import com.javaee.springtests.api.v1.model.VendorDTO;
 
 public interface VendorService {
-	
 	VendorDTO getVendorById(String id);
 
     List<VendorDTO> getAllVendors();

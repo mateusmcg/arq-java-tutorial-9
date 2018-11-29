@@ -7,7 +7,6 @@ import com.javaee.springtests.domain.Vendor;
 
 @Component
 public class VendorMapper {
-
 	public VendorDTO vendorToVendorDTO(Vendor vendor) {
 		final VendorDTO vendorDTO = new VendorDTO();
 		vendorDTO.setName(vendor.getName());
@@ -18,5 +17,5 @@ public class VendorMapper {
     	final Vendor vendor = new Vendor();
     	vendor.setName(vendorDTO.getName());
 		return vendor;
-    }
+}
 }

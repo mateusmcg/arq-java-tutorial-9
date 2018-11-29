@@ -20,7 +20,6 @@ import com.javaee.springtests.services.CustomerService;
 @RestController
 @RequestMapping(CustomerController.CUSTOMER_URL)
 public class CustomerController {
-
 	public static final String CUSTOMER_URL = "/api/v1/customers";
     private CustomerService customerService;
 
